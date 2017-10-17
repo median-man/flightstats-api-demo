@@ -1,0 +1,11 @@
+{
+  "name": "flight-stats-demo",
+  "version": "1.0.0",
+  "description": "Flightstats api demo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Desrosiers",
+  "license": "ISC"
+}
