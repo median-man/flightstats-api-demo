@@ -2,7 +2,8 @@
 // DEPENDENCIES
 // Series of npm packages that we will use to give our server useful functionality
 // ==============================================================================
-const express = require("express");
+const express = require('express');
+const flightstats = require('./flightstats');
 
 // ==============================================================================
 // EXPRESS CONFIGURATION
@@ -21,6 +22,4 @@ const PORT = process.env.PORT || 3001;
 // ==============================================================================
 // LISTENER
 // ==============================================================================
-app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
-});
+app.listen(PORT, () => console.log(`App listening on PORT: ${PORT}`));
