@@ -1,0 +1,7 @@
+// Save this file as 'keys.json' and enter a valid appId and key in the appropriate fields.
+{
+  "flightstats": {
+    "appId": "application id",
+    "key": "api key"
+  }
+}
